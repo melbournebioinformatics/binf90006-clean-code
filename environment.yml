@@ -1,0 +1,12 @@
+name: penguins
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pandas=2.2
+  - seaborn=0.12
+  - matplotlib=3.8
+  - scikit-learn=1.5
+  - pip
+  - pip:
+      - jupyter==1.0.0
